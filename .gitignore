@@ -1,0 +1,53 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Keep Terraform dependency lock file
+# .terraform.lock.hcl should be committed
+
+# Ansible
+*.retry
+
+# Kubernetes
+kubeconfig
+kubeconfig.*
+secrets.yaml
+
+# Credentials and certificates
+*.pem
+*.key
+*.p12
+*.pfx
+credentials
+credentials.*
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
